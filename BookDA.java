@@ -10,7 +10,6 @@ public class BookDA {
         bookMap = new HashMap<>();
         Scanner blockFile = new Scanner(new FileReader("/workspaces/Lab_SW5/Book.csv"));
 
-
         while(blockFile.hasNext()){
             Book book = new Book();
             String bookFileRaw = blockFile.nextLine();
